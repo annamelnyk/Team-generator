@@ -1,0 +1,63 @@
+.container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid rgb(56, 56, 56);
+  margin: 40px auto;
+  text-align: center;
+  font: 16px "Tahoma", sans-serif;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.form-add {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-generate {
+  display: flex;
+}
+
+input {
+  padding: 5px;
+}
+
+.button {
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  color: white;
+}
+
+.button.add {
+  margin-top: 10px;
+}
+
+.add {
+  background-color: rgb(53, 198, 231);
+  border: 1px solid rgb(53, 198, 231);
+}
+
+.name-field {
+  border: none;
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.generate {
+  background-color: rgb(42, 158, 42);
+  border: 1px solid rgb(42, 158, 42);
+  width: 100%;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+  text-align: left;
+}
+
